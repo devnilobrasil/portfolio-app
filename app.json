@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "portfolio-app",
-    "slug": "portfolio-app",
+    "name": "NiloDev",
+    "slug": "nilodev-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,12 +17,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

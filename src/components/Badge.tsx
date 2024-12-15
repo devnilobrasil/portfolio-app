@@ -4,7 +4,7 @@ import { Image, ImageProps, Linking, Text, TouchableOpacity, View } from 'react-
 import cn from '../lib/utils';
 
 const badgeVariants = cva(
-  'flex flex-row items-center rounded-full px-4 gap-3 justify-center py-1 text-xs font-semibold',
+  'flex flex-row items-center rounded-full px-6 gap-3 justify-center py-3 text-xs font-semibold',
   {
     variants: {
       variant: {
@@ -21,7 +21,7 @@ const badgeVariants = cva(
 const badgeTextVariants = cva('font-medium text-center text-xs', {
   variants: {
     variant: {
-      default: 'text-white text-base',
+      default: 'text-white text-base text-xl',
       secondary: 'text-secondary-foreground',
       destructive: 'text-destructive-foreground',
       success: 'text-green-100',
@@ -64,7 +64,7 @@ function Badge({
         {...props}
       >
         <Image
-          className="h-4 w-4"
+          className="h-8 w-8"
           source={icon}
         />
         <Text className={cn(badgeTextVariants({ variant }), labelClasses)}>
