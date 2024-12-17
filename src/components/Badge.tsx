@@ -4,7 +4,7 @@ import { Image, ImageProps, Linking, Text, TouchableOpacity, View } from 'react-
 import cn from '../lib/utils';
 
 const badgeVariants = cva(
-  'flex flex-row items-center rounded-full px-6 gap-3 justify-center py-3 text-xs font-semibold',
+  'flex flex-row items-center rounded-full px-6 gap-4 justify-center py-3 text-xs font-semibold',
   {
     variants: {
       variant: {
