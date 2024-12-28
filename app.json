@@ -19,13 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devnilobrasil.nilodevapp"
     },
     "web": {
       "favicon": "./assets/icon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5c440236-5b27-40f3-bca4-7b204b283dd0"
+      }
+    }
   }
 }

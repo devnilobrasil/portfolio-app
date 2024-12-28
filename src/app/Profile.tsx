@@ -13,7 +13,7 @@ export default function Profile() {
          >
             <View className="h-64 w-full object-cover">
                <Image
-                  source={require("@/assets/banner2.jpg")}
+                  source={require("@/assets/banner.png")}
                   className="h-64 w-full object-cover"
                />
             </View>

@@ -4,6 +4,5 @@ export const SKILLS = [
     {name: "JavaScript", icon: require("@/assets/javascript.png")},
     {name: "Tailwind", icon: require("@/assets/tailwind.png")},
     {name: "Figma", icon: require("@/assets/figma.png")},
-    {name: "Figma", icon: require("@/assets/figma.png")},
     {name: "Git", icon: require("@/assets/git.png")},
 ]
