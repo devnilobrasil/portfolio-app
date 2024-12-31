@@ -2,6 +2,8 @@
 
 NiloDev is my portfolio built with React Native, designed to showcase my skills, projects, and social links. The app was developed using Expo, NativeWind, and TailwindCSS for styling, providing a smooth and modern user experience.  
 
+<img src="https://raw.githubusercontent.com/devnilobrasil/portfolio-app/master/Portfolio%20App.jpg" alt="Descrição da Imagem" width="250">
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -84,7 +86,7 @@ Provides links to social media and professional profiles for easy access.
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
 ## Download
-You can download the latest APK from the following release:  
+You can download the latest APK from the following link:  
 [Download Here](https://github.com/devnilobrasil/portfolio-app/releases/download/1.0.0/application-8d1a571b-0f9e-4297-bf4d-4a118efb0834.apk)
 
 ## License
